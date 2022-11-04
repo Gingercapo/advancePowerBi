@@ -1,6 +1,13 @@
 # AdvancePowerBi
 
 ## Loan Financial Model
+
+### Skills Gained
+
+
+- **ETL Frameworks**
+
+
  
 - I worked on  Loan Financial Model with regard to interest rate and Mortage rate calculations, effectively leverage the DAX language to create advanced queries, and used the M language to improve the querying process.
  
