@@ -5,10 +5,9 @@
 - I worked on  Loan Financial Model with regard to interest rate and Mortage rate calculations, effectively leverage the DAX language to create advanced queries, and used the M language to improve the querying process.
  
 - I demonstrates how to get data into Power BI using the Power Query editor and then model the loaded data using DAX columns, tables, and measures. To lend these concepts in real-world context, I created a financial model for loans.
-- 
-   <img src="https://user-images.githubusercontent.com/56441231/200066043-5a915600-fb8f-48c1-9354-40c78ba90dcd.png" width="200" height="200" />
+- <img src="https://user-images.githubusercontent.com/56441231/200066043-5a915600-fb8f-48c1-9354-40c78ba90dcd.png" width="600" height="300" />
    
-    At time zero, we borrow a given amount of money. We then agree to pay back the loan in payments over a given time period. Like in this case, we have five years.
+ At time zero, we borrow a given amount of money. We then agree to pay back the loan in payments over a given time period. Like in this case, we have five years.
     
 - For our model, we're going to say the loan payments are even and pay is done at a regular cadence. If we compare the total loan payments to the total loan amount taken out at time zero, the total payments are higher. 
     
