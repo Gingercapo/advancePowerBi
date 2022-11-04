@@ -5,7 +5,7 @@
 - I worked on  Loan Financial Model with regard to interest rate and Mortage rate calculations, effectively leverage the DAX language to create advanced queries, and used the M language to improve the querying process.
  
 - I demonstrates how to get data into Power BI using the Power Query editor and then model the loaded data using DAX columns, tables, and measures. To lend these concepts in real-world context, I created a financial model for loans.
-- <img src="https://user-images.githubusercontent.com/56441231/200066043-5a915600-fb8f-48c1-9354-40c78ba90dcd.png" width="300" height="200" />, <img src="https://user-images.githubusercontent.com/56441231/200068844-1ebb2a13-34ad-4590-9a3c-6d10ad14f16a.png" width="300" height="200"/>,<img src= "https://user-images.githubusercontent.com/56441231/200071048-306272e1-4aef-4014-94ed-7c5c0d949857.png" width="300" height="200" />
+- <img src="https://user-images.githubusercontent.com/56441231/200066043-5a915600-fb8f-48c1-9354-40c78ba90dcd.png" width="280" height="200" />, <img src="https://user-images.githubusercontent.com/56441231/200068844-1ebb2a13-34ad-4590-9a3c-6d10ad14f16a.png" width="280" height="200"/>,<img src= "https://user-images.githubusercontent.com/56441231/200071048-306272e1-4aef-4014-94ed-7c5c0d949857.png" width="280" height="200" />
 
 
    
