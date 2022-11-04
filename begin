@@ -1,1 +1,42 @@
-ccc
+power Query is also available in Microsoft Excel to set up ETL frameworks. The term ETL stands for Extract, Transform, and Load, and it's an important framework for working not just with Power BI, but data analytics in general.
+Extracting the data involves connecting to data sources. 
+
+This includes flat files like Excel, text, or CSV files. It also includes databases like SQL Server, Azure, and AWS to name a few, as well as internet services like Salesforce.
+Once we extract the data from its data source, we can then use Power Query to transform the data into a useful table using functionalities like filtering, 
+grouping, pivoting, and unpivoting, splitting columns, and creating calculations directly in the query editor.
+
+After we extract and transform the data, we can then load it into Power BI. We can choose between how we store the data, either as a direct connection that queries the data each time we update a visual,
+or it's an import connection that stores the data directly in the Power BI cache. 
+
+If we want to create formulas in Power Query using the built-in formula options, there are a few key points to remember as a comparison to Excel. Capitalization matters in Power Query which isn't the case in Excel. 
+Power Query also uses an index that starts at zero, while Excel uses an index that starts at one. 
+
+We also need to define the data types explicitly in Power Query, while Excel defines them implicitly, which gives us a bit more flexibility in creating calculations.
+We can streamline the queries in Power BI so that the model loads the data we need in consolidated tables. In the Power Query editor of Power BI Desktop. 
+
+we can see there are three queries. The first two are the individual connections to the file storing the data for the 15 year and 30 year fixed mortgage rates from a CSV file stored online in GitHub.
+However, we also see these query names italicized, which means they're not directly loaded into Power BI.
+
+Instead, there's a combined mortgage interest rates table that appears in regular font which is what will load into Power BI. 
+This table merges the separate queries for the 15 and 30 year mortgage rates into a combined table based on the weekly date. 
+
+As we create ETL frameworks and queries within Power Query Editor, it records the steps in the applied steps on the right of the page.
+We can see what the individual steps do for this combined rates table by clicking through them. 
+
+We can also see the steps involved with setting up the individual queries for the 15 year and 30 year mortgage rates that flow into the consolidated data table, including steps to both extract and transform the data. 
+Notice, we can move the steps around within the applied step list just by moving one of the steps to another location in the order of steps. 
+
+If we do move it around and the other transformation steps cannot be done, we will receive an error message. 
+Don't panic if you receive one of these messages. 
+
+We can move the step back to where it came from in this instance, or if we inserted a step we can simply delete the step that no longer works as long as it doesn't impact other steps in the query. 
+Power Query records the query steps in an advanced editor popup window where we can see the M language at work. 
+
+The Power Query M Formula language is used for creating these data mashup queries. It's very similar to F Sharp. 
+We used a number of different transformations to change the appearance of the data set, which we see written step by step in different lines in the advanced editor. 
+
+We didn't have to write this code though ourselves because Power Query writes it behind the scenes for us. ,
+If we want to make a more complicated change to our query, we can do that in the Advanced Editor window here by making changes or adding code to the script in M. 
+
+We also see that this code is written in text that's editable. 
+We can see, for example here that our query is now erroring out because we deleted a quotation mark
