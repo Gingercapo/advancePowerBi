@@ -1,4 +1,5 @@
-power Query is also available in Microsoft Excel to set up ETL frameworks. The term ETL stands for Extract, Transform, and Load, and it's an important framework for working not just with Power BI, but data analytics in general.
+# power Query 
+is also available in Microsoft Excel to set up ETL frameworks. The term ETL stands for Extract, Transform, and Load, and it's an important framework for working not just with Power BI, but data analytics in general.
 Extracting the data involves connecting to data sources. 
 
 This includes flat files like Excel, text, or CSV files. It also includes databases like SQL Server, Azure, and AWS to name a few, as well as internet services like Salesforce.
