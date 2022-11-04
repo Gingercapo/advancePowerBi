@@ -1,0 +1,6 @@
+The VertiPaq engine is an in-memory, columnar database that stores and hosts the internal architecture of Power BI models. 
+
+
+The VertiPaq engine is part of Excel's Power Pivot and SQL Server Analysis Services models as well. 
+
+The VertiPaq engine stores and processes the data in the Power BI model by compressing the size of the model and the calculations behind the scenes.
